@@ -1,14 +1,16 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-
+import Backdrop from './backdrop'
 const ProjectSection = ({
     title,
     subheading,
     image,
     project,
     sourceCode,
+    handleClose,
 }) => {
   return (
+  
     <motion.button
         whileHover={{scale:1.1}}
         whileTap={{scale:0.9}}
@@ -40,6 +42,7 @@ const ProjectSection = ({
             </div>    
         </div>
     </motion.button>
+
   )
 }
 

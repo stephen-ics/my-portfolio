@@ -4,7 +4,7 @@ import React from 'react'
 const backdrop = ({children,onClick}) => {
   return (
       <motion.div
-      className='absolute top-0 left-0 h-full w-full bg-black bg-opacity-50 flex items-center justify-center'
+      className='fixed overflow-auto top-0 left-0 h-full w-full bg-black bg-opacity-40 flex items-center justify-center'
       onClick={onClick}
       initial={{opacity:0}}
       animate={{opacity:1}}

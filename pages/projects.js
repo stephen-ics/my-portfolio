@@ -1,11 +1,11 @@
 import React from 'react'
 import ProjectSection from '../components/ProjectSection'
 import { motion } from 'framer-motion'
+import Backdrop from '../components/backdrop'
 
 const projects = () => {
   return (
     <div className='flex flex-col items-center'>
-        
         <div className='flex'>
             <ProjectSection
             title='Tile'
